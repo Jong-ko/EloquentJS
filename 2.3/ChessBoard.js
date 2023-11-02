@@ -1,6 +1,6 @@
 console.log("hello world");
 
-let size = 50;
+let size = 100;
 let row = "";
 
 for (let i = 1; i <= size; i++) {
@@ -12,8 +12,6 @@ for (let i = 1; i <= size; i++) {
         row = row + "#";
       }
     }
-    // console.log(row);
-    // row = "";
     row = row + "\n"
   } else {
     for (let i = 1; i <= size; i++) {
@@ -24,8 +22,6 @@ for (let i = 1; i <= size; i++) {
       }
     }
     row = row + "\n"
-    // console.log(row);
-    // row = "";
   }
 }
  console.log(row)
