@@ -1,12 +1,10 @@
 function isEven(x) {
-  // console.log("boop")
   result = undefined;
   if (x == 0) {
     result = true;
   } else if (x == 1) {
     result = false;
   } else {
-    // console.log(x)
     if (x < 0) {
       x = x * (-1);
       isEven(x)
